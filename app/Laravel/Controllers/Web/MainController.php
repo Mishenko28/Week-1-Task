@@ -10,21 +10,29 @@ class MainController extends Controller
 
     public function index(PageRequest $request)
     {
-        return view('web.home');
-    }
+        $this->data['title_page'] = 'Home';
 
-    public function articles(PageRequest $request)
-    {
-        return view('web.home');
+        return view('web.home', $this->data);
     }
 
     public function about(PageRequest $request)
     {
-        return view('web.home');
+        $this->data['title_page'] = 'About';
+
+        return view('web.about', $this->data);
     }
 
     public function contact(PageRequest $request)
     {
-        return view('web.home');
+        $this->data['title_page'] = 'Contact';
+
+        return view('web.contact', $this->data);
+    }
+
+    public function articles(PageRequest $request)
+    {
+        $this->data['title_page'] = 'Articles';
+
+        return view('web.articles', $this->data);
     }
 }
