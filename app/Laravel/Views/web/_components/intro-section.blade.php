@@ -1,7 +1,7 @@
 <section class="container text-center py-5">
-    <p class="text-primary fw-medium h3 mt-5">{{ $subtitle }}</p>
-    <h1 class="heading lh-1 text-center m-auto fw-bold">Lorem ipsum dolor sit amet consectetur.</h1>
-    <p class="hero-desc text-muted py-3 m-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore rem
+    <p class="intro-title text-primary fw-medium h6 mt-5 text-uppercase">{{ $title }}</p>
+    <h1 class="heading lh-1 text-center m-auto fw-bold font-title">Lorem ipsum dolor sit amet consectetur.</h1>
+    <p class="intro-desc text-muted py-3 m-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore rem
         voluptatum
         hic
         nihil, vel ullam accusamus. Nam quos doloribus ratione impedit esse! Nihil eaque id quae, odit voluptas ea

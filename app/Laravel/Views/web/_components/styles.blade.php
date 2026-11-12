@@ -2,7 +2,7 @@
 
 {{-- google fonts --}}
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 </style>
 
 
@@ -11,8 +11,8 @@
         font-family: Inter;
     }
 
-    .intro-section {
-        padding-block: 200px;
+    body {
+        background-color: var(--bs-light-bg-subtle);
     }
 
     .heading {
@@ -20,7 +20,11 @@
         max-width: 800px;
     }
 
-    .hero-desc {
+    .intro-title {
+        letter-spacing: 0.16em;
+    }
+
+    .intro-desc {
         max-width: 620px;
     }
 
@@ -30,8 +34,15 @@
         border-radius: 100%;
     }
 
-    .active {
-        color: var(--bs-blue) !important;
-        font-weight: 700 !important;
+    .nav-item .active {
+        color: var(--bs-primary) !important;
+    }
+
+    .article-category {
+        letter-spacing: 0.16em;
+    }
+
+    .font-title {
+        font-family: Fraunces;
     }
 </style>

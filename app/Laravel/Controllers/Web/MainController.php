@@ -35,4 +35,11 @@ class MainController extends Controller
 
         return view('web.articles', $this->data);
     }
+
+    public function article(PageRequest $request)
+    {
+        $this->data['title_page'] = 'Article';
+
+        return view('web.article', $this->data);
+    }
 }

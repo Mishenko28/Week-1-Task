@@ -14,4 +14,5 @@ Route::group([
     Route::get('/contact', ['as' => 'contact', 'uses' => 'MainController@contact']);
 
     Route::get('/articles', ['as' => 'articles', 'uses' => 'MainController@articles']);
+    Route::get('/article', ['as' => 'article', 'uses' => 'MainController@article']);
 });
