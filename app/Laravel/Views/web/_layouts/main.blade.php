@@ -12,6 +12,8 @@
 
     @yield('page-content')
 
+    @include('web._components.footer')
+
     @include('web._components.scripts')
 
     @yield('page-scripts')

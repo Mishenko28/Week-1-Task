@@ -8,7 +8,7 @@
 
     {{-- contact form --}}
     <section class="container py-5">
-        <div class="row g-5">
+        <div class="row gy-5">
             <div class="col-lg-7">
                 <h2 class="h4 mb-4 font-title">Send a message</h2>
                 <form id="contactForm" action="#" method="get" novalidate>
@@ -57,7 +57,7 @@
 
                 <div class="d-flex gap-3 mb-3">
                     <i class="contact-icon text-primary d-flex bg-primary-subtle border-0 justify-content-center align-items-center flex-shrink-0 bi bi-envelope rounded-circle"
-                        aria-hidden="true"></i>
+                        style="width: 44px; height: 44px" aria-hidden="true"></i>
                     <div>
                         <p class="small fw-semibold mb-0">Email</p>
                         <a class="mb-0 small lh-lg" href="#">helloworld@email.com</a>
@@ -66,7 +66,7 @@
 
                 <div class="d-flex gap-3 mb-3">
                     <i class="contact-icon text-primary d-flex bg-primary-subtle border-0 justify-content-center align-items-center flex-shrink-0 bi bi-telephone rounded-circle"
-                        aria-hidden="true"></i>
+                        style="width: 44px; height: 44px" aria-hidden="true"></i>
                     <div>
                         <p class="small fw-semibold mb-0">Telephone</p>
                         <p class="small mb-0 text-body-secondary">+63 (987) 654 3210</p>
@@ -75,7 +75,7 @@
 
                 <div class="d-flex gap-3 mb-4">
                     <i class="contact-icon text-primary d-flex bg-primary-subtle border-0 justify-content-center align-items-center flex-shrink-0 bi bi-geo-alt rounded-circle"
-                        aria-hidden="true"></i>
+                        style="width: 44px; height: 44px" aria-hidden="true"></i>
                     <div>
                         <p class="small fw-semibold mb-0">Address</p>
                         <p class="small lh-lg text-body-secondary mb-0">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -119,13 +119,4 @@
             </div>
         </div>
     </section>
-@endsection
-
-@section('page-styles')
-    <style>
-        .contact-icon {
-            width: 44px;
-            height: 44px;
-        }
-    </style>
 @endsection

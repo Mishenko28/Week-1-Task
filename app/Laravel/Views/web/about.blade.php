@@ -9,10 +9,10 @@
 
     {{-- mission & vision section --}}
     <section class="container py-5">
-        <div class="row g-5">
+        <div class="row gy-5">
             <div class="col-lg-6">
                 <h2 class="h3 mb-3 font-title">Our mission</h2>
-                <p class="mission-vision text-body-secondary lh-lg mb-0">
+                <p class="text-body-secondary lh-lg mb-0" style="text-align: justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima enim sequi eum quod ab vero accusamus
                     sed reprehenderit cum iusto possimus natus, dolorum, nesciunt tenetur laudantium repellendus, cupiditate
                     quae amet. Eligendi dolore delectus corporis repellendus numquam, quia accusantium sequi perferendis,
@@ -21,7 +21,7 @@
             </div>
             <div class="col-lg-6">
                 <h2 class="h3 mb-3 font-title">Our vision</h2>
-                <p class="mission-vision text-body-secondary lh-lg mb-0">
+                <p class="text-body-secondary lh-lg mb-0" style="text-align: justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quod facilis temporibus vitae rem
                     dolores molestiae eligendi, accusamus deserunt eos corporis, sit molestias sint adipisci ipsum quas
                     perferendis nesciunt exercitationem quidem praesentium dicta? Similique dolor a voluptatem consequatur
@@ -35,37 +35,23 @@
     <section class="container py-5">
         <div class="row g-4 py-5 text-center border-top border-bottom">
             <div class="col-6 col-lg-3">
-                <p class="stat-number mb-0 fw-bold lh-1 text-primary font-title">214k</p>
-                <span class="stat-label text-uppercase fw-bold text-muted small">Article published</span>
+                <p class="mb-0 fw-bold lh-1 text-primary font-title h1">214k</p>
+                <span class="text-uppercase fw-bold text-muted small" style="letter-spacing: 0.16em">Article
+                    published</span>
             </div>
             <div class="col-6 col-lg-3">
-                <p class="stat-number mb-0 fw-bold lh-1 text-primary font-title">121k</p>
-                <span class="stat-label text-uppercase fw-bold text-muted small">Registered Users</span>
+                <p class="mb-0 fw-bold lh-1 text-primary font-title h1">121k</p>
+                <span class="text-uppercase fw-bold text-muted small" style="letter-spacing: 0.16em">Registered Users</span>
             </div>
             <div class="col-6 col-lg-3">
-                <p class="stat-number mb-0 fw-bold lh-1 text-primary font-title">14k</p>
-                <span class="stat-label text-uppercase fw-bold text-muted small">Letter subscribers</span>
+                <p class="mb-0 fw-bold lh-1 text-primary font-title h1">14k</p>
+                <span class="text-uppercase fw-bold text-muted small" style="letter-spacing: 0.16em">Letter
+                    subscribers</span>
             </div>
             <div class="col-6 col-lg-3">
-                <p class="stat-number mb-0 fw-bold lh-1 text-primary font-title">2022</p>
-                <span class="stat-label text-uppercase fw-bold text-muted small">Founded in</span>
+                <p class="mb-0 fw-bold lh-1 text-primary font-title h1">2022</p>
+                <span class="text-uppercase fw-bold text-muted small" style="letter-spacing: 0.16em">Founded in</span>
             </div>
         </div>
     </section>
-@endsection
-
-@section('page-styles')
-    <style>
-        .stat-number {
-            font-size: clamp(2.4rem, 4vw, 3.2rem);
-        }
-
-        .stat-label {
-            letter-spacing: 0.16em;
-        }
-
-        .mission-vision {
-            text-align: justify;
-        }
-    </style>
 @endsection

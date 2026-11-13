@@ -15,34 +15,16 @@
         background-color: var(--bs-light-bg-subtle);
     }
 
-    .heading {
-        font-size: clamp(2.6rem, 6.5vw, 4.4rem);
-        max-width: 800px;
-    }
-
-    .intro-title {
-        letter-spacing: 0.16em;
-    }
-
-    .intro-desc {
-        max-width: 620px;
-    }
-
-    .avatar {
-        width: 35px;
-        height: 35px;
-        border-radius: 100%;
-    }
-
     .nav-item .active {
         color: var(--bs-primary) !important;
     }
 
-    .article-category {
-        letter-spacing: 0.16em;
-    }
-
     .font-title {
         font-family: Fraunces;
+    }
+
+    .hover-zoom:hover {
+        transform: scale(1.04);
+        transition: transform 0.2s ease;
     }
 </style>

@@ -50,23 +50,33 @@
 
         <hr class="mb-4">
 
-        <div class="row g-5 g-md-3 mb-5">
+        <div class="row gy-5 g-md-3 mb-5">
             @include('web._components.article-card')
             @include('web._components.article-card')
             @include('web._components.article-card')
         </div>
 
-        <div class="row g-5 g-md-3 mb-5">
+        <div class="row gy-5 g-md-3 mb-5">
             @include('web._components.article-card')
             @include('web._components.article-card')
             @include('web._components.article-card')
         </div>
 
-        <div class="row g-5 g-md-3 mb-5">
+        <div class="row gy-5 g-md-3 mb-5">
             @include('web._components.article-card')
             @include('web._components.article-card')
             @include('web._components.article-card')
         </div>
+
+        <nav class="d-flex justify-content-center">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#"><i class="bi bi-arrow-left"></i></a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#"><i class="bi bi-arrow-right"></i></a></li>
+            </ul>
+        </nav>
     </section>
 @endsection
 
